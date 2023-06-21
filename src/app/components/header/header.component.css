@@ -3,6 +3,8 @@ header{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: column;
+  font-size: 1em;
 } 
 header header{
   display: none;

@@ -12,6 +12,7 @@ import { saveAs } from 'file-saver';
 export class HeaderComponent implements OnInit {
   title = 'Click the Button to download pdf ';
   showAddMenu: boolean = false;
+  imageUrl: any;
 
   constructor(
     private uiService: UiService,

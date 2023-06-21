@@ -24,7 +24,7 @@ body {
   background: #000;
   color: #fff;
   border: none;
-  padding: 50px 100px;
+  padding: 20px 100px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -37,6 +37,9 @@ body {
 }
 .btn:active {
   transform: scale(0.98);
+}
+h1{
+  font-size: 20px;
 }
 
 .btn-block {
@@ -57,7 +60,7 @@ body {
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
-  font-size: 17px;
+  font-size: 10px;
 }
 
 .form-control-check {
