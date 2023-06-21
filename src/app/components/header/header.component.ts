@@ -10,7 +10,7 @@ import { saveAs } from 'file-saver';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title = 'Our Menu Today';
+  title = 'Click the Button to download pdf ';
   showAddMenu: boolean = false;
 
   constructor(
@@ -36,6 +36,8 @@ export class HeaderComponent implements OnInit {
         }
       });
   }
+
+  
 
   private getFileNameFromContentDisposition(contentDisposition: string | null): string {
     const regex = /filename[^;=\n]*=((['"]).*?\2|[^;\n]*)/;
