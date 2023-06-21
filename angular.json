@@ -67,7 +67,8 @@
               "browserTarget": "Crash-todo:build:production"
             },
             "development": {
-              "browserTarget": "Crash-todo:build:development"
+              "browserTarget": "Crash-todo:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

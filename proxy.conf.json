@@ -1,0 +1,8 @@
+{
+    "/api": {
+      "target": "https://dev.qbox-api.com",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+  
