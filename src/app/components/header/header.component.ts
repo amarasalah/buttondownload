@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   toggleAddText(): void {
-    const downloadUrl = 'https://dev.qbox-api.com/api/v1/behaviorreport/download/x8bz2jzpm8b9594ea61e1146?lang=ar';
+    const downloadUrl = 'https://dev.qbox-api.com/api/v1/exportpdf/reportNotesByReport';
     const headers = new HttpHeaders().append('Content-Type', 'application/pdf');
     this.http.get(downloadUrl, { headers, responseType: 'blob', observe: 'response' })
       .subscribe((response: HttpResponse<Blob>) => {
